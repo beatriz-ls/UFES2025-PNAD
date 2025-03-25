@@ -567,37 +567,6 @@ Onde:
 - $P_{a}^{ano}$ é a estimativa populacional produzida pela COPIS para o nível geográfico $a$ para o dia do ano a ser definido;
 - $\hat{P}_{a}^{ano}$ é a estimativa populacional obtida com os dados da pesquisa para o nível geográfico $A$ no ano.
     
-:::
-
---- 
-
-## {#metodos21 data-menu-title="Metodologia: Outros estimadores"}
-
-[Metodologia]{.slide-title}
-
-[Outros estimadores relevantes]{.custom-subtitle2}
-
-<hr>
-
-::: body-text-s
-
-Outros estimadores relevantes para a PNADC são os estimadores de total da característica de interesse ou razões entre totais de duas características, alguns dos mais relevantes são:
-
-Totais para um trimestre:
-
-$$
-\hat{Y}_{r}^{tri} = \sum_{g} \sum_{i} \sum_{j} \sum_{k} W'_{gij} y_{gijk} = \sum_{a} \sum_{g} \sum_{i} \sum_{j} \sum_{k} W_{gij}^* y_{gijk} \times \frac{P_a^{tri}}{\hat{P}_a^{tri}} =
-$$
-
-$$
-= \sum_{a} \hat{Y}_{a}^{tri} \times \frac{P_a^{tri}}{\hat{P}_a^{tri}} = \sum_{a} \frac{\hat{Y}_{a}^{tri}}{\hat{P}_a^{tri}} \times P_a^{tri}
-$$
-
-onde
-
-- $y_{gijk}$ é o valor da variável de interesse  $y$ para a pessoa $k$ do domicílio $j$ da UPA $i$ do grupo de rotação $g$;
-- $\hat{Y}_{a}^{tri}$ é o estimador natural do total da variável de interesse $y$ no nível geográfico $a$.
-
 
 :::
 
